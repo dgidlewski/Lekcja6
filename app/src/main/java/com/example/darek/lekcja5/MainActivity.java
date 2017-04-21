@@ -48,6 +48,13 @@ public class MainActivity extends AppCompatActivity {
         btnNewAlertDialogButton = (Button) findViewById(R.id.btnNewAlertDialogButton);
         btnNewAlertDialogList = (Button) findViewById(R.id.btnNewAlertDialogList);
         btnNewCustomAlertDialog = (Button) findViewById(R.id.btnNewCustomAlertDialog);
+
+        Button button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                mediaPlayer.stop();
+            }
+        });
         initButtonsClick();
     }
 

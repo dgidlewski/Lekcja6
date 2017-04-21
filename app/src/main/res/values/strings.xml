@@ -88,4 +88,5 @@
     <string name="exit">Wyjście</string>
     <string name="play1">Odtwórz 1</string>
     <string name="stop">Zatrzymaj</string>
+    <string name="stopmusic">Zatrzymaj muzyke</string>
 </resources>
